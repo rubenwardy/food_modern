@@ -80,7 +80,7 @@ food.module("hamburger", function()
 	})
 	minetest.register_craft({
 		output = "food_modern:hamburger",
-		recipt = {
+		recipe = {
 			{"group:food_bread"},
 			{"group:food_meat"},			
 			{"group:food_bread"}
