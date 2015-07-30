@@ -72,7 +72,7 @@ food.module("pizza", function()
 	})
 end)
 
-food.module("hamburger", {
+food.module("hamburger", function()
 	minetest.register_craftitem("food_modern:hamburger", {
 		description = S("Hamburger"),
 		groups = {food=1},
@@ -86,4 +86,4 @@ food.module("hamburger", {
 			{"group:food_bread"}
 		}
 	})
-})
+end)
