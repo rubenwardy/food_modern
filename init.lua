@@ -76,7 +76,8 @@ food.module("hamburger", function()
 	minetest.register_craftitem("food_modern:hamburger", {
 		description = S("Hamburger"),
 		groups = {food=1},
-		on_use = food.item_eat(6)
+		on_use = food.item_eat(6),
+		inventory_image = "food_burger.png"
 	})
 	minetest.register_craft({
 		output = "food_modern:hamburger",
